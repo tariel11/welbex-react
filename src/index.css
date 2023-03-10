@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  @apply font-inter font-normal bg-[#1E1E1E] text-primary ;
+} 
+input{outline: none;}
+.app{
+  display: flex;
+  flex-direction: column;
+}
