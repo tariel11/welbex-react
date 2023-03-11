@@ -8,29 +8,37 @@ module.exports = {
         primary: "#E4E5EA",
         secondary: "#656566",
       },
+      keyframes: {
+        wiggle: {
+          '0%': { transform: 'translateY(0vh) ' },
+          '25%': { transform: 'translateY(25vh) translateX(90vw)' },
+          '50%': { transform: 'translateY(50vh) ' },
+          '100%': { transform: 'translateY(100vh) translateX(10vw)' },
+        },
+        wiggle2: {
+          '0%': { transform: 'translateX(0vw) ' },
+          '25%': { transform: 'translateX(25vw) translateY(90vh)' },
+          '50%': { transform: 'translateX(50vw) ' },
+          '100%': { transform: 'translateX(100vw) translateY(10vh)' },
+        },
+        wiggle3: {
+          '0%': { transform: 'translateX(0vw) scale(1) ' },
+          '25%': { transform: 'translateX(25vw) translateY(90vh)' },
+          '50%': { transform: 'translateX(50vw) scale(0)' },
+          '100%': { transform: 'translateX(100vw) translateY(10vh)' },
+        }
+      },
       backgroundImage: (theme) => ({
         "heading":
           "linear-gradient(90deg, #FCB045, #FF3F78)",
+        "linear":
+          "url('./img/linear.svg')",
         "red-ball": 
-          ` 
-            background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
-            box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
-            backdrop-filter: blur(2px);
-          `,
+          "radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%)",
         "small-red-ball":
-          `
-            background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-            box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
-            filter: blur(2.5px);
-            backdrop-filter: blur(2px);
-          `,
+          "radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%)",
         "purple-ball": 
-          ` 
-            background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-            box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
-            filter: blur(5px);
-            backdrop-filter: blur(2px);
-          `,
+          "radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%)",
         "purple-light": 
           ` 
             background: #833AB4;

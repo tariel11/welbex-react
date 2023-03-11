@@ -7,10 +7,36 @@ body,
 #root,
 .app {
   height: 100%;
-  @apply font-inter font-normal bg-[#1E1E1E] text-primary ;
+  @apply font-inter font-normal bg-[#0E1014] text-primary ;
 } 
 input{outline: none;}
 .app{
   display: flex;
   flex-direction: column;
+}
+
+.red-light{
+  width: 311px;
+    height: 311px;
+    top: 25%;
+    left: -7%;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+    z-index: 50;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.purple-light{
+  width: 259px;
+  height: 259px;
+  top: -16%;
+  left: 42%;
+  background: #833AB4;
+  opacity: 0.5;
+  filter: blur(196px);
+  z-index: 50;
+  position: absolute;
+  border-radius: 50%;
 }
