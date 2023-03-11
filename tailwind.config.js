@@ -10,22 +10,22 @@ module.exports = {
       },
       keyframes: {
         wiggle: {
-          '0%': { transform: 'translateY(0vh) ' },
-          '25%': { transform: 'translateY(25vh) translateX(90vw)' },
-          '50%': { transform: 'translateY(50vh) ' },
-          '100%': { transform: 'translateY(100vh) translateX(10vw)' },
+          '0%': { transform: 'translateX(25vw) translateY(10vh)' },
+          '25%': { transform: 'translateX(30vw) translateY(40vh)' },
+          '50%': { transform: 'translateX(60vw) translateY(70vh)' },
+          '100%': { transform: 'translateX(25vw) translateY(10vh)' },
         },
         wiggle2: {
-          '0%': { transform: 'translateX(0vw) ' },
-          '25%': { transform: 'translateX(25vw) translateY(90vh)' },
-          '50%': { transform: 'translateX(50vw) ' },
-          '100%': { transform: 'translateX(100vw) translateY(10vh)' },
+          '0%': { transform: 'translateX(80vw) translateY(10vh)' },
+          '25%': { transform: 'translateX(70vw) translateY(20vh)' },
+          '50%': { transform: 'translateX(90vw) translateY(50vh)' },
+          '100%': { transform: 'translateX(80vw) translateY(10vh)' },
         },
         wiggle3: {
-          '0%': { transform: 'translateX(0vw) scale(1) ' },
-          '25%': { transform: 'translateX(25vw) translateY(90vh)' },
-          '50%': { transform: 'translateX(50vw) scale(0)' },
-          '100%': { transform: 'translateX(100vw) translateY(10vh)' },
+          '0%': { transform: 'translateX(80vw) translateY(90vh) ' },
+          '25%': { transform: 'translateX(25vw) translateY(50vh)' },
+          '50%': { transform: 'translateX(50vw) ranslateY(70vh)' },
+          '100%': { transform: 'translateX(80vw) translateY(90vh) ' },
         }
       },
       backgroundImage: (theme) => ({

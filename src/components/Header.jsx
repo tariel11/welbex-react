@@ -8,8 +8,8 @@ import telegram from "../img/telegram.svg"
 
 const Header = () => {
   return (
-    <header className='fixed w-full bg-black ss:bg-transparent' >
-      <div className=' ss:hidden w-5/6 mx-auto py-[22px] flex flex-col gap-5 ' >
+    <header className=' w-full bg-black ss:bg-transparent' >
+      <div className=' ss:hidden w-5/6 mx-auto py-[22px] z-20 flex flex-col gap-5 z-[100]' >
         <div className='flex justify-between'>
           <div>
             <Link to="/">
