@@ -8,7 +8,7 @@ import telegram from "../img/telegram.svg"
 
 const Header = () => {
   return (
-    <header className=' w-full bg-black ss:bg-transparent' >
+    <header className='z-[100] w-full bg-black ss:bg-transparent' >
       <div className=' ss:hidden w-5/6 mx-auto py-[22px] z-20 flex flex-col gap-5 z-[100]' >
         <div className='flex justify-between'>
           <div>
@@ -18,17 +18,17 @@ const Header = () => {
           </div>
           <ul className='flex justify-between gap-4' >
             <li>
-              <a href='w.me//:+75555555555' >
+              <a href='tg://resolve?domain=tarielarslanov' >
                 <img src={telegram} alt="telegram" />
               </a>
             </li>
             <li>
-              <a href='w.me//:+75555555555' >
+              <a href='viber://add?number=+75555555555' >
                 <img src={viber} alt="viber" />
               </a>
             </li>
             <li>
-              <a href='w.me//:+75555555555' >
+              <a href='whatsapp://send?phone=+75555555555' >
                 <img src={whatsapp} alt="whatsapp" />
               </a>
             </li>
@@ -83,17 +83,17 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href='w.me//:+75555555555' >
+            <a href='tg://resolve?domain=tarielarslanov' >
               <img src={telegram} alt="telegram" />
             </a>
           </li>
           <li>
-            <a href='w.me//:+75555555555' >
+            <a href='viber://chat?number=+75555555555' >
               <img src={viber} alt="viber" />
             </a>
           </li>
           <li>
-            <a href='w.me//:+75555555555' >
+            <a href='whatsapp://send?phone=+75555555555' >
               <img src={whatsapp} alt="whatsapp" />
             </a>
           </li>

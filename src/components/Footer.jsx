@@ -7,7 +7,7 @@ import telegram from "../img/telegram.svg"
 
 const Footer = () => {
   return (
-    <footer className='mt-auto bg-black ss:bg-inherit pt-[35px] pb-[60px] ss:pb-5 ' >
+    <footer className=' z-[1000] mt-auto bg-black ss:bg-inherit pt-[35px] pb-[60px] ss:pb-5 ' >
       <div className='w-5/6 mx-auto flex flex-col ss:flex-row ss:justify-between gap-[30px] ' >
         <div>
           <ul className='flex flex-col gap-[10px]'>
